@@ -1,0 +1,49 @@
+.container {
+	width: 900px;
+	margin: 50px auto;
+
+
+}
+
+.container h1, h2, a {
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#container-light {
+	background-color: #F4F4F4;
+	padding: 40px;
+	border-radius: 6px;
+}
+
+#container-light h2 {
+	color: #77BAD9;
+}
+
+#container-light2 {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url(../../pictures/llg3.jpg);
+	//#649DB7;
+	background-size: cover;
+	padding: 30px;
+	border-radius: 6px;
+	color: white;
+}
+
